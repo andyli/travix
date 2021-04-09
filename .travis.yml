@@ -41,7 +41,7 @@ script:
   - lix run travix neko "${args[@]}"
   - lix run travix lua "${args[@]}"
   - lix run travix java "${args[@]}"
-  - lix run travix cs "${args[@]}"
+  - lix run travix cs -D erase-generics "${args[@]}"
   - lix run travix cpp "${args[@]}"
   # - lix run travix hl "${args[@]}" # no current HashLink binaries available
   - lix run travix python "${args[@]}"
